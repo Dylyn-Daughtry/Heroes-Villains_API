@@ -92,7 +92,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+REST_FRAMEWORD ={
+    'COERCE_DECIMAL_TO_STRING': False
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
